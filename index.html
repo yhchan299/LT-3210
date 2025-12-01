@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LT3210 Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <p class="title">LT3210 Project</p>
+            <div>
+                <a href="#intro">Introduction</a>
+                <a href="#method">Method</a>
+                <a href="#results">Results</a>
+                <a href="#discussion">Discussion</a>
+            </div>
+        </nav>
+        <h1>University Student News Consumption Behaviour</h1>
+        <p class="tagline">
+            An exploratory study using large language models (LLMs) to simulate how university students consume, trust, and verify digital news.
+        </p>
+    </div>
+</header>
+
+<main class="container">
+    <section id="intro">
+      <h2>Introduction</h2>
+      <p>In the contemporary digital environment, university students receive news continuously through social media,
+      news apps, and other online platforms. Their news consumption habits can shape academic performance, critical
+      thinking, civic engagement, and long‑term decision‑making.</p>
+      <p>This project investigates how university students consume and evaluate digital news, focusing on frequency of
+      news use, trust in different sources, verification strategies, and the perceived impact of algorithms and
+      misinformation. Large language models (LLMs) are prompted to “pretend” to be university students and complete a
+      structured questionnaire, allowing comparison of simulated student behaviours across models.</p>
+      <h3>Research Questions</h3>
+      <ul>
+          <li>How frequently do (simulated) university students consume news, and through which channels?</li>
+          <li>What factors influence their trust in news sources and their verification practices?</li>
+          <li>How do social media algorithms and digital platforms appear to shape their news exposure and perspectives in the LLM‑simulated responses?</li>
+      </ul>
+    </section>
+
+    <section id="method">
+      <h2>Method</h2>
+      <h3>Questionnaire Design</h3>
+      <p>A 20‑item questionnaire was developed to capture key aspects of university students’ news behaviour, including:</p>
+      <ul>
+          <li><span>Background:</span> field of study and current student status (e.g. first‑year undergraduate, postgraduate).</li>
+          <li><span>News habits:</span> frequency of actively seeking news, time spent per day, and primary news sources (social media, news websites/apps, TV, peers, others).</li>
+          <li><span>Trust and verification:</span> trust in mainstream media organisations, frequency of verifying news, and factors influencing trust (academic credibility, transparency, recommendations, peer consensus, personal alignment).</li>
+          <li><span>Digital environment:</span> accidental exposure to news on social media, perceived impact of algorithmic curation, preferred types of news content, and importance of visual elements.</li>
+          <li><span>Misinformation and concerns:</span> confidence in identifying misinformation, methods of checking credibility, changes in news consumption, avoidance of news, reactions to conflicting reports, and concerns about the future of digital news media.</li>
+      </ul>
+      <p>Most questions used multiple‑choice options A–E to make responses easy to compare and visualise.</p>
+      <h3>LLM Data Collection</h3>
+      <p>The questionnaire was given to multiple LLMs. Each model received instructions such as:
+      “Pretend to be a university student. Answer the following questions. Use only options A–E where specified.”</p>
+      <p>Example items include:</p>
+      <ul>
+          <li>“Only answer the programme name: What is your field of study?”</li>
+          <p><span>Response Sample:</span> Computer Science</p>
+          <li>“How frequently do you actively seek out news? A: Multiple times daily B: Once daily C: Several times weekly D: Once weekly E: Rarely.”</li>
+          <p><span>Response Sample:</span> B (Once daily)</p>
+      </ul>
+    </section>
+
+  <section id="results">
+    <h2>Results</h2>
+    <h3>1. News Consumption Frequency and Sources</h3>
+    <p>Most simulated students reported checking news at least several times per week, with many selecting “once daily”
+      or “multiple times daily”. Social media and news websites/apps were consistently chosen as the primary sources,
+      while TV and peers were less frequent.</p>
+    <img>
+    <p>This suggests that news is integrated into everyday routines and is accessed mainly through digital channels,
+      consistent with survey findings about young adults’ reliance on online and social platforms for news.</p>
+    <h3>2. Trust in Mainstream Media</h3>
+    <p>Across models, trust in mainstream media tends to cluster around “some distrust” and “neutral”, with a relatively
+      small share of responses expressing unqualified trust. This mirrors widely reported skepticism among younger
+      audiences and raises questions about how students decide which sources to rely on.</p>
+    <img>
+      <h3>3. Verification Strategies</h3>
+    <p>In the simulated responses:</p>
+    <ul>
+      <li>“Multiple source comparison” appeared frequently as a preferred verification method.</li>
+      <li>Academic sources, official fact‑checking websites, and consultation with peers/professors were less common.</li>
+      <li>A small minority of responses selected “I do not verify news”.</li>
+    </ul>
+    <img>
+    <p>This suggests that simulated students perform verification, but primarily in informal ways. They rely on
+      cross‑checking different outlets or platforms rather than using more systematic methods, which has implications
+      for information literacy teaching.</p>
+    <h3>4. Algorithms, Misinformation, and Concerns</h3>
+    <p>Many responses indicated that social media algorithms “somewhat limit” perspectives or have “no significant
+      effect”, while fewer selected “greatly expands” or “greatly limits” perspectives. Misleading content was reported
+      as being encountered “occasionally” or “frequently”, and concerns about misinformation and source credibility
+      were often chosen as top worries about the future of digital news media.</p>
+    <img>
+  </section>
+
+  <section id="discussion">
+    <h2>Discussion</h2>
+    <p>
+      Using LLMs to simulate university students provides a low‑cost, low‑risk way to explore plausible patterns of
+      news behaviour before collecting real human data. The models reproduce many trends found in empirical surveys of
+      young audiences: heavy reliance on digital news, cautious or mixed trust in mainstream media, informal
+      verification strategies, and concern about misinformation.
+    </p>
+    <p>
+      However, LLM‑generated data are not a substitute for actual student responses. The patterns reflect the models’
+      training data and internal biases rather than genuine attitudes. Future extensions of this project could:
+    </p>
+    <ul>
+      <li>Compare simulated responses with real survey results from university students.</li>
+      <li>Test how different prompts change the “student” profiles produced by each model.</li>
+      <li>Explore cross‑cultural or discipline‑specific differences in simulated news behaviour.</li>
+    </ul>
+  </section>
+  <section id="genai">
+    <h2>Declaration of the Use of AI</h2>
+    <ul>
+      <li><span>1.</span> Content and Code outline</li>
+      <li><span>2.</span> Polishing Content</li>
+      <li><span>3.</span> Organizing Data</li>
+    </ul>
+  </section>
+  <section id="member">
+    <h2>Group Member</h2>
+    <ul>
+      <li>Chan Yu Hin 58537520</li>
+    </ul>
+  </section>
+
+</main>
+</body>
+</html>
