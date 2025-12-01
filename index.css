@@ -21,7 +21,7 @@ body {
 
 header {
     background: linear-gradient(135deg, #2b5fd6, #00a4bd);
-    color: white;
+    color: whitesmoke;
     padding-bottom: 20px;
 }
 
@@ -58,15 +58,16 @@ nav {
 
 
 nav a {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     font-size: 0.9rem;
-    padding: 6px 10px;
+    text-shadow: 0 0 1px;
+    padding: 6px 10px;          
 }
 
-nav a:hover {
+nav a:hover , nav a:focus{
     background: rgba(0,0,0,0.18);
-    color: rgb(158, 249, 255);
+    color: #AFF2F8;
 }
 
 main {
@@ -103,7 +104,7 @@ p {
 }
 
 .title{
-    color: rgb(28, 2, 113);
+    color: #150255;
     font-weight: bold;
 }
 
@@ -130,7 +131,8 @@ li {
 
 .tagline {
     font-size: 0.9rem;
-    color:rgb(79, 231, 241);
+    color: #AFF2F8;
+    text-shadow: 0 0 1px;
 }
 
 .badge {
